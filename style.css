@@ -125,8 +125,13 @@ section {
     width: 10px;
   }
   #btn:hover {
-   & #input {
+    & #input {
       padding: 20px;
     }
   }
+}
+.red {
+  color: red;
+  background-clip: "text";
+  
 }

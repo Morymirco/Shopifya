@@ -1,5 +1,6 @@
 const btn = document.getElementById("btn");
 const search = document.querySelector("#input");
+const heart = document.querySelector("#heart");
 const card = document.querySelector(".card");
 btn.addEventListener("click", () => {
   if (window.innerWidth < 510) {
@@ -19,3 +20,7 @@ if (window.innerWidth < 530) {
 } else {
   card.style.width = "18rem";
 }
+heart.addEventListener("click", () => {
+  heart.classList.toggle("red");
+  // heart.style.backgroundColor = "red";
+});
